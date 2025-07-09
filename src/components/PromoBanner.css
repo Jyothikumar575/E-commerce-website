@@ -1,0 +1,17 @@
+.promo-banner {
+  margin: 20px 0;
+  background: #fff;
+  padding: 10px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.banner-img:hover {
+  transform: scale(1.02);
+}

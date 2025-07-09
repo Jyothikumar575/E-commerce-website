@@ -1,0 +1,33 @@
+.category-products {
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 12px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: green;
+}
