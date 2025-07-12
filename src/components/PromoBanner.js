@@ -8,22 +8,22 @@ const PromoBanner = () => {
   const banners = [
   {
     id: 1,
-    img: '/adds/fashion-add.jpeg',
+    img: '/assets/adds/Fashion banner.png',
     alt: 'Fashion Add',
   },
   {
     id: 2,
-    img: '/adds/matters-ad.jpeg',
+    img: 'assets/adds/mattress banner.png',
     alt: 'Mattress Add',
   },
   {
     id: 3,
-    img: '/adds/sofa-add.jpeg',
+    img: 'assets/adds/sofa banner.png',
     alt: 'Sofa Add',
   },
   {
     id: 4,
-    img: '/adds/electronics-add.png',
+    img: 'assets/adds/electronics banner.png',
     alt: 'Electronics Add',
   },
 ];
